@@ -1,0 +1,364 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* ------css reset----- */
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Microsoft JhengHei", "Arial";
+}
+
+header .navBar {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.571);
+    z-index: 99;
+}
+
+header .navBar li {
+    padding: 10px 20px 0px 20px;
+    margin: 5px 5px;
+}
+
+header .navBar li a {
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+header .navBar li a:hover {
+    color: rgb(62, 144, 245);
+}
+
+/* --------about----------- */
+content #about {
+    height: 600px;
+    background-image: url('../img/about2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid rgb(192, 213, 240);
+    animation: fadein 2s;
+}
+
+/* ------collection---- */
+#collection {
+    border-bottom: 2px solid rgb(192, 213, 240);
+}
+
+#collection img {
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(132, 126, 126);
+    margin: 50px;
+    display: flex;
+    animation: fadein 2s;
+    /* --------- */
+    opacity: 0;
+    transition: opacity .8s .25s ease-out;
+    will-change: opacity;
+}
+
+#collection img.is-visible {
+    opacity: 1;
+}
+
+#collection ul {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#collection li {
+    margin: 10px;
+    align-self: flex-start;
+}
+
+#collection a {
+    text-decoration: none;
+    color: rgb(27, 129, 193);
+}
+
+
+.map {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    animation: fadein 2s;
+}
+
+.bmi {
+    margin: 20px auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20, 19, 19);
+    color: antiquewhite;
+    animation: fadein 2s;
+
+}
+
+.travel {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    animation: fadein 2s;
+}
+
+
+/* ----------skill--------- */
+#skill {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(10, 10, 10);
+    color: antiquewhite;
+    border-bottom: 2px solid rgb(192, 213, 240);
+}
+
+#skill ul {
+    margin: 40px 10%;
+    display: flex;
+    flex-direction: column;
+    /* --------- */
+    opacity: 0;
+    transition: opacity .3s .25s ease-out;
+    will-change: opacity;
+}
+
+#skill ul.is-visible {
+    opacity: 1;
+}
+
+#skill li {
+    margin: 10px;
+    align-self: flex-start;
+}
+
+/* ----------experience-------- */
+#experience {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(192, 213, 240);
+}
+
+#experience ul {
+    margin: 40px 20%;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 1000px; */
+    justify-content: center;
+}
+
+#experience li {
+    margin: 10px;
+    align-self: flex-start;
+}
+
+.education {
+    /* --------- */
+    opacity: 0;
+    transition: opacity .8s .25s ease-out;
+    will-change: opacity;
+}
+
+.education.is-visible {
+    opacity: 1;
+}
+
+.jobs {
+    background-color: rgb(17, 16, 16);
+    color: antiquewhite;
+}
+
+.jobs ul {
+    /* --------- */
+    opacity: 0;
+    transition: opacity .8s .25s ease-out;
+    will-change: opacity;
+}
+
+.jobs ul.is-visible {
+    opacity: 1;
+}
+
+.jobs2 {
+    display: none;
+    background-color: rgb(17, 16, 16);
+    color: antiquewhite;
+
+}
+
+.jobs2 ul {
+    /* --------- */
+    opacity: 0;
+    transition: opacity .8s .25s ease-out;
+    will-change: opacity;
+}
+
+.jobs2 ul.is-visible {
+    opacity: 1;
+}
+
+/* -------------footer---------- */
+footer {
+    height: 50px;
+    background-color: rgb(231, 232, 235);
+    color: rgb(32, 149, 208);
+}
+
+footer p {
+    padding-top: 10px;
+}

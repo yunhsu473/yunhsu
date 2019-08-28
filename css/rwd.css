@@ -1,0 +1,107 @@
+/* -------------------1200---------------- */
+
+@media(max-width:1200px) {
+    header .navBar li {
+        padding: 10px;
+    }
+
+    /* --------about----------- */
+    content #about {
+        height: 400px;
+        width: 100%;
+        background-size: contain;
+    }
+
+    /* ------collection---- */
+    #collection img {
+        align-self: center;
+    }
+
+    #collection ul {
+        align-self: center;
+        margin: 10px;
+    }
+
+    .map {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .bmi {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .travel {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    /* ----------skill--------- */
+    #skill ul {
+        margin: 40px 5%;
+    }
+
+    /* ----------experience-------- */
+    #experience ul {
+        margin: 20px 10%;
+    }
+}
+
+/* ---------------------900------------------ */
+
+@media(max-width:900px) {
+    header .navBar li {
+        padding: 10px;
+    }
+
+    /* --------about----------- */
+    content #about {
+        height: 300px;
+        width: 100%;
+        background-size: contain;
+    }
+
+    /* ------collection---- */
+    #collection img {
+        align-self: center;
+    }
+
+    #collection ul {
+        align-self: center;
+        margin: 10px;
+    }
+
+    .map {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .bmi {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .travel {
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .jobs {
+        display: none;
+    }
+
+    .jobs2 {
+        display: block;
+    }
+
+    /* ----------skill--------- */
+    #skill ul {
+        margin: 40px 5%;
+    }
+
+    /* ----------experience-------- */
+    #experience ul {
+        margin: 20px 10%;
+    }
+}

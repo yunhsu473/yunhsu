@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yun Hsu</title>
+    <!-- <link rel="icon" href="img/title.JPG" type="image/x-icon" /> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rwd.css">
+    <script src="https://kit.fontawesome.com/e5ebd2ea19.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <ul class="navBar">
+                <li><a href="#about">About</a></li>
+                <li><a href=" #collection">Collection</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li style="margin-right: 10%;"><a href="#experience">Experience</a></li>
+            </ul>
+        </header>
+        <content>
+            <div id="about" class="show-on-scroll">
+            </div>
+            <div id="collection">
+                <div class="map">
+                    <img src="img/map1.gif" class="show-on-scroll" alt="">
+                    <ul>
+                        <li style="font-size: 1.2em; font-weight:bold;">電子產品回收點地圖</li>
+                        <li><a href="https://yunhsu473.github.io/e-waste-recycle-map/" target="_blank"><i
+                                    class="fas fa-desktop"></i> demo | <a
+                                    href="https://github.com/yunhsu473/e-waste-recycle-map" target="_blank"><i
+                                        class="fab fa-github"></i> GitHub</a></a>
+                        </li>
+                        <li style="font-weight: bold;">功能：</li>
+                        <li>使用者可查詢縣市地址，並且透過 Google Map 查找地點最近電子產品回收站；</li>
+                        <li>點擊回收站地標，可查詢地址以及查看接受回收的產品。</li>
+                        <li style="font-weight: bold;">使用技術：</li>
+                        <li>Google Maps API：在 Google Maps 印出目標地點以及資料視窗</li>
+                        <li>Geocoder：使用 Geocoder 將地址轉換成經緯度</li>
+                        <li>AJAX：使用 AJAX 非同步傳遞技術載入資料</li>
+                        <li>JSON & open-data：資料來源為環境保護署資料開放平台，資料來源格式為 JSON</li>
+                    </ul>
+                </div>
+                <div class="bmi">
+                    <ul>
+                        <li style="font-size: 1.2em; font-weight:bold;">BMI 計算器</li>
+                        <li><a href="https://yunhsu473.github.io/BMI-Calculator/" target="_blank"><i
+                                    class="fas fa-desktop"></i> demo | <a
+                                    href="https://github.com/yunhsu473/BMI-Calculator" target="_blank"><i
+                                        class="fab fa-github"></i> GitHub</a></a>
+                        </li>
+                        <li style="font-weight: bold;">功能：</li>
+                        <li>使用者可輸入身高體重，計算出 BMI 值並且判斷為理想或是過重等不同等級；</li>
+                        <li>在計算當下並會記錄一切數據以及時間，方便使用者查看紀錄；</li>
+                        <li>使用者也可一使用狀況而消除個別紀錄。</li>
+                        <li style="font-weight: bold;">使用技術：</li>
+                        <li>JavaScript ES6：使用 JavaScript 寫出計算邏輯</li>
+                        <li>localStorage：使用 localStoage 將資料暫存於瀏覽器中</li>
+                    </ul>
+                    <img src="img/bmi1.gif" class="show-on-scroll" alt="">
+                </div>
+                <div class="travel">
+                    <img src="img/travel1.gif" class="show-on-scroll" alt="">
+                    <ul>
+                        <li style="font-size: 1.2em; font-weight:bold;">高雄旅遊資訊</li>
+                        <li><a href="https://yunhsu473.github.io/Kaohsiung-Travel-Information/" target="_blank"><i
+                                    class="fas fa-desktop"></i> demo | <a
+                                    href="https://github.com/yunhsu473/Kaohsiung-Travel-Information" target="_blank"><i
+                                        class="fab fa-github"></i> GitHub</a></a>
+                        </li>
+                        <li style="font-weight: bold;">功能：</li>
+                        <li>使用者可透過點擊熱門行政區按鈕或是選單查找目標地區；</li>
+                        <li>選擇地區後可看到地區景點開放時間、地點、電話及售票資訊。</li>
+                        <li style="font-weight: bold;">使用技術：</li>
+                        <li>JavaScript ES6：使用 ES6 模版字符串（template literal）嵌入變數</li>
+                        <li>AJAX：使用 AJAX 非同步傳遞技術載入資料</li>
+                        <li>JSON & open-data：資料來源為高雄市政府資料開放平台，資料來源格式為 JSON</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="skill">
+                <ul class="show-on-scroll">
+                    <li style="font-weight: bold; font-size: 1.2em;">前端工程：</li>
+                    <li><i class="fas fa-seedling"></i> JavaScript 基本語法、ES6</li>
+                    <li><i class="fas fa-seedling"></i> AJAX & XMLHttpRequest 非同步來源請求</li>
+                    <li><i class="fas fa-seedling"></i> API 串接 (Google Maps, FB Login)</li>
+                    <li><i class="fas fa-seedling"></i> 使用 Git GUI (Source Tree) 做版本控制</li>
+                </ul>
+                <ul class="show-on-scroll">
+                    <li style="font-weight: bold; font-size: 1.2em;">Web Layout：</li>
+                    <li><i class="fas fa-seedling"></i> 使用 HTML5、CSS3 開發靜態頁面</li>
+                    <li><i class="fas fa-seedling"></i> jQuery 互動效果</li>
+                    <li><i class="fas fa-seedling"></i> RWD 響應式網頁設計</li>
+                    <li><i class="fas fa-seedling"></i> Bootstrap 快速架構網頁框架</li>
+                </ul>
+            </div>
+            <div id="experience">
+                <div class="education show-on-scroll">
+                    <ul>
+                        <li style="font-weight: bold; font-size: 1.2em;"><i class="fas fa-graduation-cap"></i>
+                            &ensp;國立政治大學
+                            <p style="float: right; font-size: 0.8em;"> &emsp;(2012 年 - 2016 年)</p>
+                        </li>
+                        <!-- <li style="font-size: 0.8em;"> </li> -->
+                        <li> &emsp;&emsp;&ensp;主修：經濟學系</li>
+                        <li> &emsp;&emsp;&ensp;交換經驗：中國武漢大學</li>
+                        <li> &emsp;&emsp;&ensp;TOEIC：850</li>
+                    </ul>
+                </div>
+                <div class="jobs">
+                    <ul class="show-on-scroll">
+                        <li style="font-weight: bold; font-size: 1.2em;"><i class="fas fa-briefcase"></i>
+                            &ensp;臺灣證券交易所股份有限公司　活動企劃執行
+                            <p style="float: right; font-size: 0.8em;"> &emsp;(2017 年 5 月 - 至今)</p>
+                        </li>
+                        <!-- <li style="font-size: 0.8em;"> </li> -->
+                        <li> &emsp;&emsp;&ensp;籌辦公司協辦組織 中華民國證券期貨分析協會 投資專題講座、上市櫃公司參訪、年度會員大會</li>
+                        <li> &emsp;&emsp;&ensp;代表 中華民國證券期貨分析協會 出席 於越南河內舉辦 2018年度亞洲投資分析師年會 (ASIF) 與論壇</li>
+                        <li> &emsp;&emsp;&ensp;與國際組織 ACIIA (國際投資分析師協會) 以及 ASIF (亞洲證券暨投資聯合會)協作、定期參與會議及舉辦論壇</li>
+                    </ul>
+                    <ul class="show-on-scroll">
+                        <li style="font-weight: bold; font-size: 1.2em;"><i class="fas fa-briefcase"></i>
+                            &ensp;人力飛行劇團　九歌兒童劇團　演出企劃執行
+                            <p style="float: right; font-size: 0.8em;"> &emsp;(2016 年 9 月 - 2017 年 3 月)</p>
+                        </li>
+                        <!-- <li style="font-size: 0.8em;"> </li> -->
+                        <li> &emsp;&emsp;&ensp;票務處理（兩廳院售票系統）、行銷決策討論與行政事務。演出期間負責前台票務、售物以及後台機動人員</li>
+                        <li> &emsp;&emsp;&ensp;擔任劇團製作組、韓國導演帶領的表導組以及專業技術組間溝通橋樑，管理年度大戲演員、道具 全台巡演</li>
+                        <li> &emsp;&emsp;&ensp;年度大戲期間為主要演出執行人，帶領演員至各場館演出、與專業人員溝通技術點，支援劇團製作與行政組</li>
+                    </ul>
+                    <ul class="show-on-scroll">
+                        <li style="font-weight: bold; font-size: 1.2em;"><i class="fas fa-briefcase"></i>
+                            &ensp;電商 EZTABLE 簡單桌　營運組跨行銷組 實習生
+                            <p style="float: right; font-size: 0.8em;"> &emsp;(2016 年 4 月 - 2016 年 6 月)</p>
+                        </li>
+                        <!-- <li style="font-size: 0.8em;"> </li> -->
+                        <li> &emsp;&emsp;&ensp;分類及分析客人評論等第一手資料，將問題回報至負責組別進行後續處理，每周發表並分析客人評論簡報</li>
+                        <li> &emsp;&emsp;&ensp;營運公司粉絲專頁、撰寫宣傳文案、線上活動行銷發想及執行。發想、執行並簡報CEO 特別指派實習生專案</li>
+                    </ul>
+                </div>
+                <div class="jobs2 show-on-scroll">
+                    <ul>
+                        <li style="font-weight: bold; font-size: 1.2em;"><i class="fas fa-briefcase"></i>
+                            &ensp;臺灣證券交易所股份有限公司　活動企劃執行
+                        </li>
+                        <li style="font-size: 0.8em;">&emsp;&ensp;&ensp;&ensp;(2017 年 5 月 - 至今)</li>
+                        <li> &emsp;&emsp;&ensp;籌辦公司協辦組織 中華民國證券期貨分析協會 投資專題講座、上市櫃公司參訪</li>
+                        <li> &emsp;&emsp;&ensp;、年度會員大會</li>
+                        <li> &emsp;&emsp;&ensp;代表 中華民國證券期貨分析協會 出席 於越南河內舉辦 2018年度亞洲投資分析</li>
+                        <li> &emsp;&emsp;&ensp;師年會(ASIF) 與論壇</li>
+                        <li> &emsp;&emsp;&ensp;與國際組織 ACIIA (國際投資分析師協會) 以及 ASIF (亞洲證券暨投資聯合會)</li>
+                        <li> &emsp;&emsp;&ensp;協作、定期參與會議及舉辦論壇</li>
+                    </ul>
+                    <ul>
+                        <li style="font-weight: bold; font-size: 1.2em;"><i class="fas fa-briefcase"></i>
+                            &ensp;人力飛行劇團　九歌兒童劇團　演出企劃執行
+                        </li>
+                        <li style="font-size: 0.8em;">&emsp;&ensp;&ensp;&ensp;(2016 年 9 月 - 2017 年 3 月)</li>
+                        <li> &emsp;&emsp;&ensp;票務處理（兩廳院售票系統）、行銷決策討論與行政事務。演出期間負責前台</li>
+                        <li> &emsp;&emsp;&ensp;票務、售物以及後台機動人員</li>
+                        <li> &emsp;&emsp;&ensp;擔任劇團製作組、韓國導演帶領的表導組以及專業技術組間溝通橋樑，管理年</li>
+                        <li> &emsp;&emsp;&ensp;度大戲演員、道具 全台巡演</li>
+                        <li> &emsp;&emsp;&ensp;年度大戲期間為主要演出執行人，帶領演員至各場館演出、與專業人員溝通技</li>
+                        <li> &emsp;&emsp;&ensp;術點，支援劇團製作與行政組</li>
+                    </ul>
+                    <ul>
+                        <li style="font-weight: bold; font-size: 1.2em;"><i class="fas fa-briefcase"></i>
+                            &ensp;電商 EZTABLE 簡單桌　營運組跨行銷組 實習生
+                        </li>
+                        <li style="font-size: 0.8em;">&emsp;&ensp;&ensp;&ensp;(2016 年 4 月 - 2016 年 6 月)</li>
+                        <li> &emsp;&emsp;&ensp;分類及分析客人評論等第一手資料，將問題回報至負責組別進行後續處理，每</li>
+                        <li> &emsp;&emsp;&ensp;周發表並分析客人評論簡報</li>
+                        <li> &emsp;&emsp;&ensp;營運公司粉絲專頁、撰寫宣傳文案、線上活動行銷發想及執行。發想、執行並</li>
+                        <li> &emsp;&emsp;&ensp;簡報CEO 特別指派實習生專案</li>
+                    </ul>
+                </div>
+            </div>
+        </content>
+        <footer>
+            <p>聯絡信箱：yuntinghsu7@gmail.com</p>
+        </footer>
+    </div>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
