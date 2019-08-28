@@ -185,12 +185,21 @@ header .navBar li a:hover {
 
 /* --------about----------- */
 content #about {
-    height: 600px;
-    background-image: url('../img/about2.gif');
+    height: 700px;
+    background-image: url('../img/bg2.JPG');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     border-bottom: 2px solid rgb(192, 213, 240);
     animation: fadein 5s;
+}
+
+#about img {
+    width: 1000px;
+    z-index: 50;
+    position: absolute;
+    top: 20%;
+    left: 5%;
 }
 
 /* ------collection---- */
