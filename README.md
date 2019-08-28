@@ -11,6 +11,10 @@
  - 自訂 CSS3 animation 動畫效果
  
    @keyframe 自訂 CSS3
+   
+ -  RWD 響應式網頁設計
+ 
+    為介面寬度小於 1200px 和 900px 螢幕做出較佳設計
  
  - JS ES6 搭配 CSS3 製作 scroll-fadeIn 效果
  
