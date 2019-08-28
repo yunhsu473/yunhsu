@@ -186,7 +186,7 @@ header .navBar li a:hover {
 /* --------about----------- */
 content #about {
     height: 700px;
-    background-image: url('../img/bg2.JPG');
+    background-image: url('../img/bg2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
