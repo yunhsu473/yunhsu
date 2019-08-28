@@ -190,7 +190,7 @@ content #about {
     background-position: center;
     background-repeat: no-repeat;
     border-bottom: 2px solid rgb(192, 213, 240);
-    animation: fadein 2s;
+    animation: fadein 3s;
 }
 
 /* ------collection---- */
