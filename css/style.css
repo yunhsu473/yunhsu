@@ -176,11 +176,12 @@ header .navBar li {
 
 header .navBar li a {
     text-decoration: none;
-    color: rgb(12, 12, 12);
+    color: rgb(32, 149, 208);
+    padding: 5px 10px;
 }
 
 header .navBar li a:hover {
-    color: rgb(62, 144, 245);
+    border: 2px solid rgb(32, 149, 208);
 }
 
 /* --------about----------- */
@@ -241,6 +242,12 @@ content #about {
     color: rgb(27, 129, 193);
 }
 
+.ssf {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    animation: fadein 2s;
+}
 
 .map {
     margin: 20px auto;

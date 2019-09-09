@@ -29,17 +29,7 @@
         margin: 10px;
     }
 
-    .map {
-        flex-direction: column;
-        margin: 10px auto;
-    }
-
-    .bmi {
-        flex-direction: column;
-        margin: 10px auto;
-    }
-
-    .travel {
+    #collection div {
         flex-direction: column;
         margin: 10px auto;
     }
@@ -86,17 +76,7 @@
         margin: 10px;
     }
 
-    .map {
-        flex-direction: column;
-        margin: 10px auto;
-    }
-
-    .bmi {
-        flex-direction: column;
-        margin: 10px auto;
-    }
-
-    .travel {
+    #collection div {
         flex-direction: column;
         margin: 10px auto;
     }
