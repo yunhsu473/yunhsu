@@ -1,6 +1,6 @@
 ## Yun Hsu Profile (個人頁面)
 
-![image](https://github.com/yunhsu473/yunhsu/blob/master/img/test2.gif)
+![image](https://github.com/yunhsu473/yunhsu/blob/master/img/self.gif)
 
 - Vanilla JS 
 
